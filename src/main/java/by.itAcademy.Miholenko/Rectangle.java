@@ -1,6 +1,6 @@
 package by.itAcademy.Miholenko;
 
-public class Rectangle extends Figure implements GetSquare{
+public class Rectangle extends Figure implements GetSquare {
     private double height;
     private double width;
 
@@ -33,6 +33,11 @@ public class Rectangle extends Figure implements GetSquare{
     @Override
     public double getSquare() {
         return height * width;
+    }
+
+    @Override
+    public double getPerimeter() {
+        return (height + width) * 2;
     }
 
 }

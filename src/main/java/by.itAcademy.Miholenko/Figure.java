@@ -11,4 +11,6 @@ abstract class Figure {
             this.type = type;
         }
 
+        abstract double getPerimeter();
+
 }

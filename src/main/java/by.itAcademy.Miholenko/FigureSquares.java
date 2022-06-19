@@ -45,6 +45,7 @@ public class FigureSquares {
         double sideC = scanner.nextDouble();
         Triangle triangle = new Triangle(sideA, sideB, sideC);
         System.out.printf("Площадь треугольника равна: %.2f%n", triangle.getSquare());
+        System.out.printf("Периметр треугольника равен: %.2f%n", triangle.getPerimeter());
 
     }
 
@@ -58,6 +59,7 @@ public class FigureSquares {
         rectangle.setHeight(height);
         rectangle.setWidth(width);
         System.out.printf("Площадь прямоугольника равна: %.2f%n", rectangle.getSquare());
+        System.out.printf("Периметр прямоугольника равен: %.2f%n", rectangle.getPerimeter());
 
     }
 
@@ -66,6 +68,8 @@ public class FigureSquares {
         Circle circle = new Circle();
         System.out.println("Введите радиус");
         circle.setRadius(scanner.nextDouble());
+        System.out.println("Диаметр: " + circle.getDiameter(circle.getRadius()));
         System.out.printf("Площадь: %.2f%n", circle.getSquare());
+        System.out.printf("Периметр: %.2f%n", circle.getPerimeter());
     }
 }

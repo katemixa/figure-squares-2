@@ -20,10 +20,19 @@ public class Circle extends Figure implements GetSquare{
         this.radius = radius;
     }
 
+    public double getDiameter(double radius) {
+        return radius * 2;
+    }
+
     @Override
     public double getSquare() {
         return Math.PI * Math.pow(radius, 2);
 
+    }
+
+    @Override
+    public double getPerimeter() {
+        return Math.PI * getDiameter(radius);
     }
 
 }

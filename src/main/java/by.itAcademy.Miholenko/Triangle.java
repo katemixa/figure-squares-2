@@ -45,4 +45,9 @@ public class Triangle extends Figure implements GetSquare{
         double p = (sideA + sideB + sideC) / 2;
         return Math.sqrt(p * (p - sideA) * (p - sideB) * (p - sideC));
     }
+
+    @Override
+    public double getPerimeter() {
+        return sideA + sideB + sideC;
+    }
 }
