@@ -1,6 +1,6 @@
 package by.itAcademy.Miholenko;
 
-public class Rectangle extends Figure implements GetSquare {
+public class Rectangle extends Figure implements Countable {
     private double height;
     private double width;
 

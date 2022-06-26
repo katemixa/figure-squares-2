@@ -1,6 +1,6 @@
 package by.itAcademy.Miholenko;
 
-public class Triangle extends Figure implements GetSquare{
+public class Triangle extends Figure implements Countable {
     private double sideA;
     private double sideB;
     private double sideC;

@@ -2,7 +2,7 @@ package by.itAcademy.Miholenko;
 
 import java.util.Scanner;
 
-public class FigureSquares {
+public class Runner {
     public static void main(String[] args) {
         System.out.println("Меню программы:\n" +
                 "1 - треугольник\n" +

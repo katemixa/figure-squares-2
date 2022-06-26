@@ -1,6 +1,6 @@
 package by.itAcademy.Miholenko;
 
-public class Circle extends Figure implements GetSquare{
+public class Circle extends Figure implements Countable {
     private double radius;
 
     Circle() {
